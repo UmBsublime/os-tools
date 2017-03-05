@@ -1,6 +1,5 @@
 #!/usr/bin/env python2
 
-import re
 import sys
 
 from novaclient.shell import main
