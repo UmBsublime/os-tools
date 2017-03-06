@@ -4,10 +4,10 @@ import sys
 
 from glanceclient.shell import main
 
-from helper import get_parsed_argv
+from helper import parse_extra_args
 
 if __name__ == '__main__':
-    get_parsed_argv()
+    parse_extra_args()
     print sys.argv
     sys.exit(main())
 

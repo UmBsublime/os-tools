@@ -56,10 +56,10 @@ def parse_and_remove_arg(arg_str_repr_list, base_args):
 
     return arg_val
 
-def get_parsed_argv():
+def parse_extra_args():
     zone = parse_and_remove_arg(['-z', '--zone'], sys.argv)
     config = parse_and_remove_arg(['-c', '--config'], sys.argv)
-    print zone, config
+    #print zone, config
     if zone is None or config is None:
         print "missing required arg"
         exit(1)
