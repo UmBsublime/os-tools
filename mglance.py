@@ -8,6 +8,7 @@ from helper import get_parsed_argv
 
 if __name__ == '__main__':
     get_parsed_argv()
+    print sys.argv
     sys.exit(main())
 
 

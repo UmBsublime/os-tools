@@ -1,3 +1,4 @@
 python-novaclient==2.23.2
 python-glanceclient==2.5
 python-cinderclient==1.6
+urllib3[secure]
